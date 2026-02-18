@@ -660,6 +660,12 @@
             "icon": "package/com.unity.modules.terrain"
           },
           {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          },
+          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1026,6 +1032,12 @@
             "icon": "package/com.unity.modules.physicsbackendphysx"
           },
           {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          },
+          {
             "name": "Required by UIElements Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1237,6 +1249,12 @@
             "icon": "package/com.unity.modules.terrain"
           },
           {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          },
+          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1369,6 +1387,25 @@
           },
           {
             "name": "TerrainData",
+            "scenes": [
+              "Assets/Scenes/Main vr scene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Required by TerrainPhysics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.terrainphysics"
+          }
+        ]
+      },
+      {
+        "name": "TerrainPhysics",
+        "dependencies": [
+          {
+            "name": "TerrainCollider",
             "scenes": [
               "Assets/Scenes/Main vr scene.unity"
             ],

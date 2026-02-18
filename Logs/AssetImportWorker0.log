@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.4f1 (fdd3b8998ec4) revision 16634808'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-madra" at "2026-02-04T10:28:13.1556801Z"
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'no' Physical Memory: 8086 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-02-04T10:28:13Z
+Date: 2026-02-18T10:32:44Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-madra" at "2026-02-18T10:32:44.904091Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/madra/Dokumenter/NTNU/master/vr/test 1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56921
+49872
 -licensingIpc
 LicenseClient-madra
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/madra/Dokumenter/NTNU/master/vr/test 1
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [21096]  Target information:
+Player connection [18112]  Target information:
 
-Player connection [21096]  * "[IP] 172.22.48.1 [Port] 0 [Flags] 2 [Guid] 4069735866 [EditorId] 4069735866 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OLPTGPKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18112]  * "[IP] 172.27.0.1 [Port] 0 [Flags] 2 [Guid] 2588405759 [EditorId] 2588405759 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OLPTGPKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21096]  * "[IP] 10.22.160.176 [Port] 0 [Flags] 2 [Guid] 4069735866 [EditorId] 4069735866 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OLPTGPKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18112]  * "[IP] 10.22.218.202 [Port] 0 [Flags] 2 [Guid] 2588405759 [EditorId] 2588405759 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OLPTGPKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21096] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21096] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18112] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18112] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -89,21 +89,21 @@ Library Redirect Path: Library/
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              3be6c6be67134f3b9079359f71d6c0ac
-  Correlation Id:          f9dba5eb24f890c508a2c88c737cc3a2
-  External correlation Id: 3461704824540682155
+  Session Id:              74d04fc34e10492f964baeaddc3720d4
+  Correlation Id:          0081887c7773b76db814e805402f5c26
+  External correlation Id: 671115050320411753
   Machine Id:              vr9Wj+L/DwWA9xi394vArMmU93c=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-madra" (connect: 0.00s, validation: 0.09s, handshake: 8.51s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-madra-notifications" at "2026-02-04T10:28:21.759874Z"
-[Licensing::Module] Licensing Background thread has ended after 8.61s
-[Licensing::Module] Licensing is initialized (took 7.09s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-madra" (connect: 0.01s, validation: 0.00s, handshake: 5.38s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-madra-notifications" at "2026-02-18T10:32:50.2846695Z"
+[Licensing::Module] Licensing Background thread has ended after 5.39s
+[Licensing::Module] Licensing is initialized (took 4.87s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 1375886128672-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 228.25 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 166.68 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.4f1 (fdd3b8998ec4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -119,52 +119,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.011331 seconds.
-- Loaded All Assemblies, in 41.984 seconds
+Registered in 0.041130 seconds.
+- Loaded All Assemblies, in  2.595 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1392 ms
+Android Extension - Scanning For ADB Devices 484 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-[Licensing::Client] Successfully resolved entitlement details
-- Finished resetting the current domain, in  4.440 seconds
-Domain Reload Profiling: 46421ms
-	BeginReloadAssembly (706ms)
+- Finished resetting the current domain, in  2.340 seconds
+Domain Reload Profiling: 4916ms
+	BeginReloadAssembly (951ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (137ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (127ms)
-	LoadAllAssembliesAndSetupDomain (40978ms)
-		LoadAssemblies (700ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (197ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (288ms)
+	LoadAllAssembliesAndSetupDomain (1070ms)
+		LoadAssemblies (945ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40226ms)
-			TypeCache.Refresh (40221ms)
-				TypeCache.ScanAssembly (29657ms)
-			BuildScriptInfoCaches (1ms)
+		AnalyzeDomain (1044ms)
+			TypeCache.Refresh (1035ms)
+				TypeCache.ScanAssembly (972ms)
+			BuildScriptInfoCaches (2ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (4443ms)
+	FinalizeReload (2344ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4027ms)
+		SetupLoadedEditorAssemblies (2077ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2533ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (420ms)
-			ProcessInitializeOnLoadAttributes (584ms)
-			ProcessInitializeOnLoadMethodAttributes (475ms)
+			InitializePlatformSupportModulesInManaged (722ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (631ms)
+			ProcessInitializeOnLoadMethodAttributes (464ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (5ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -172,8 +171,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in 11.879 seconds
-Refreshing native plugins compatible for Editor in 36.68 ms, found 10 plugins.
+- Loaded All Assemblies, in  5.131 seconds
+Refreshing native plugins compatible for Editor in 96.29 ms, found 10 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -189,813 +188,36 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.422 seconds
-Domain Reload Profiling: 15141ms
-	BeginReloadAssembly (1855ms)
+- Finished resetting the current domain, in  5.484 seconds
+Domain Reload Profiling: 10581ms
+	BeginReloadAssembly (1173ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (72ms)
+		DisableScriptedObjects (112ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (231ms)
-	RebuildCommonClasses (129ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (162ms)
-	LoadAllAssembliesAndSetupDomain (9525ms)
-		LoadAssemblies (7689ms)
+		CreateAndSetChildDomain (158ms)
+	RebuildCommonClasses (243ms)
+	RebuildNativeTypeToScriptingClass (68ms)
+	initialDomainReloadingComplete (207ms)
+	LoadAllAssembliesAndSetupDomain (3403ms)
+		LoadAssemblies (2580ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1941ms)
-			TypeCache.Refresh (1661ms)
-				TypeCache.ScanAssembly (1272ms)
-			BuildScriptInfoCaches (207ms)
-			ResolveRequiredComponents (68ms)
-	FinalizeReload (3423ms)
+		AnalyzeDomain (1457ms)
+			TypeCache.Refresh (1071ms)
+				TypeCache.ScanAssembly (999ms)
+			BuildScriptInfoCaches (302ms)
+			ResolveRequiredComponents (71ms)
+	FinalizeReload (5487ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2760ms)
+		SetupLoadedEditorAssemblies (4164ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (411ms)
-			ProcessInitializeOnLoadAttributes (1307ms)
-			ProcessInitializeOnLoadMethodAttributes (999ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 31.90 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7412 unused Assets / (5.7 MB). Loaded Objects now: 8293.
-Memory consumption went from 147.0 MB to 141.3 MB.
-Total: 32.764500 ms (FindLiveObjects: 1.619700 ms CreateObjectMapping: 3.979800 ms MarkObjects: 19.949200 ms  DeleteObjects: 7.213000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 250899.445839 seconds.
-  path: Assets/_Recovery
-  artifactKey: Guid(f227f0fdaa9c9184a9087632fc431327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery using Guid(f227f0fdaa9c9184a9087632fc431327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c39a83add01b5b0d8670db0002e82e8a') in 0.186505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/_Recovery/0.unity
-  artifactKey: Guid(eaf9e1178c5ef164baced51c15d741e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery/0.unity using Guid(eaf9e1178c5ef164baced51c15d741e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a23fe3f1b42e6a1940f750972cb0132e') in 0.0736978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Terrain/Terrain_0_0_d02df825-267a-4b99-8a26-f73659adeb0d.asset
-  artifactKey: Guid(379dfe85931f73f43a55d008d724f500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Terrain/Terrain_0_0_d02df825-267a-4b99-8a26-f73659adeb0d.asset using Guid(379dfe85931f73f43a55d008d724f500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6e9d785e2fc046fc8dd3802363226bc') in 0.0936615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/test_save.unity
-  artifactKey: Guid(e3092b9a7a6af5245b53e70dd34b0cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/test_save.unity using Guid(e3092b9a7a6af5245b53e70dd34b0cf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72652b73344d770362048d9e61b8deed') in 0.0970271 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/Main vr scene.unity
-  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6582126b8148dd316b926d5da6ced9ec') in 0.0397955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 458.445899 seconds.
-  path: Assets/Scenes/Main vr scene.unity
-  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b60731e174a5cabeba58d643d071dcb') in 0.6664002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1654.456408 seconds.
-  path: Assets/Scenes/Main vr scene.unity
-  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44783b60072949f01c643dcd494b2a50') in 0.4954359 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.006723 seconds.
-  path: Assets/Terrain/Terrain_0_0_d02df825-267a-4b99-8a26-f73659adeb0d.asset
-  artifactKey: Guid(379dfe85931f73f43a55d008d724f500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Terrain/Terrain_0_0_d02df825-267a-4b99-8a26-f73659adeb0d.asset using Guid(379dfe85931f73f43a55d008d724f500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb6dbeaf656e40de8f3e8895c46379f9') in 0.1657075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scenes/Main vr scene.unity
-  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aeec43cfe26f189f42f5dced8b799d82') in 0.1096517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 412.990309 seconds.
-  path: Assets/Scenes/Main vr scene.unity
-  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be5d2a5a4bfbd323824c5a84be9e6b2c') in 0.2759481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.489169 seconds.
-  path: Assets/Scenes/Main vr scene.unity
-  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ce38bd2ca9d288944fc1e484a56edb5') in 0.0986743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in 51.302 seconds
-[Licensing::Client] Successfully resolved entitlement details
-Refreshing native plugins compatible for Editor in 108.54 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Initializing Mesh Terrain Editor v4.0.0b1 on Unity 6000.3.4f1...
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
-Please upgrade ASE to latest version and restart Unity.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
-MTE.MTEDebug:LogWarning (string)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Initializing Mesh Terrain Editor...Done
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in 15.460 seconds
-Domain Reload Profiling: 66828ms
-	BeginReloadAssembly (32226ms)
-		ExecutionOrderSort (1471ms)
-		DisableScriptedObjects (847ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (7ms)
-		CreateAndSetChildDomain (6859ms)
-	RebuildCommonClasses (896ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (181ms)
-	LoadAllAssembliesAndSetupDomain (18015ms)
-		LoadAssemblies (13845ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (6410ms)
-			TypeCache.Refresh (4970ms)
-				TypeCache.ScanAssembly (4792ms)
-			BuildScriptInfoCaches (1363ms)
-			ResolveRequiredComponents (49ms)
-	FinalizeReload (15469ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (14301ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (88ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (1240ms)
-			ProcessInitializeOnLoadAttributes (10265ms)
-			ProcessInitializeOnLoadMethodAttributes (2657ms)
-			AfterProcessingInitializeOnLoad (27ms)
-			EditorAssembliesLoaded (6ms)
-		ExecutionOrderSort2 (1ms)
-		AwakeInstancesAfterBackupRestoration (61ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
-Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
-Refreshing native plugins compatible for Editor in 57.32 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7568 unused Assets / (140.4 MB). Loaded Objects now: 8409.
-Memory consumption went from 336.5 MB to 196.1 MB.
-Total: 263.124800 ms (FindLiveObjects: 83.142400 ms CreateObjectMapping: 9.437900 ms MarkObjects: 69.530400 ms  DeleteObjects: 100.501300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 6107.305610 seconds.
-  path: Assets/MeshTerrainEditor/Plugins/Resources/Grass/Prototype_GrassStar.obj
-  artifactKey: Guid(95ef26e11d36bd643b99aeea379d1d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshTerrainEditor/Plugins/Resources/Grass/Prototype_GrassStar.obj using Guid(95ef26e11d36bd643b99aeea379d1d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7616b048194f159d6c8faed21a94136c') in 10.1692806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/MeshTerrainEditor/Plugins/Resources/Grass/Prototype_GrassQuad.obj
-  artifactKey: Guid(a691cc7ece3d97040879e0809c58b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MeshTerrainEditor/Plugins/Resources/Grass/Prototype_GrassQuad.obj using Guid(a691cc7ece3d97040879e0809c58b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bc595176c27a56e3855af833bdcd2d3') in 0.0774275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in 26.374 seconds
-Refreshing native plugins compatible for Editor in 31.68 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Initializing Mesh Terrain Editor v4.0.0b1 on Unity 6000.3.4f1...
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
-Please upgrade ASE to latest version and restart Unity.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
-MTE.MTEDebug:LogWarning (string)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Initializing Mesh Terrain Editor...Done
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  5.209 seconds
-Domain Reload Profiling: 31613ms
-	BeginReloadAssembly (17920ms)
-		ExecutionOrderSort (26ms)
-		DisableScriptedObjects (2799ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (6ms)
-		CreateAndSetChildDomain (7032ms)
-	RebuildCommonClasses (128ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (114ms)
-	LoadAllAssembliesAndSetupDomain (8202ms)
-		LoadAssemblies (6826ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1888ms)
-			TypeCache.Refresh (74ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (1743ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (5214ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4716ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (381ms)
-			ProcessInitializeOnLoadAttributes (1410ms)
-			ProcessInitializeOnLoadMethodAttributes (2820ms)
-			AfterProcessingInitializeOnLoad (31ms)
-			EditorAssembliesLoaded (31ms)
-		ExecutionOrderSort2 (11ms)
-		AwakeInstancesAfterBackupRestoration (47ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
-Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
-Refreshing native plugins compatible for Editor in 90.01 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7569 unused Assets / (140.3 MB). Loaded Objects now: 8446.
-Memory consumption went from 338.3 MB to 198.1 MB.
-Total: 935.978600 ms (FindLiveObjects: 213.760000 ms CreateObjectMapping: 7.372700 ms MarkObjects: 175.704600 ms  DeleteObjects: 539.105000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  9.011 seconds
-Refreshing native plugins compatible for Editor in 19.78 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Initializing Mesh Terrain Editor v4.0.0b1 on Unity 6000.3.4f1...
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
-Please upgrade ASE to latest version and restart Unity.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
-MTE.MTEDebug:LogWarning (string)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Initializing Mesh Terrain Editor...Done
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  4.970 seconds
-Domain Reload Profiling: 13991ms
-	BeginReloadAssembly (5109ms)
-		ExecutionOrderSort (13ms)
-		DisableScriptedObjects (423ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (7ms)
-		CreateAndSetChildDomain (696ms)
-	RebuildCommonClasses (102ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (3688ms)
-		LoadAssemblies (4748ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (999ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (829ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (4970ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3959ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (18ms)
-			BeforeProcessingInitializeOnLoad (701ms)
-			ProcessInitializeOnLoadAttributes (2689ms)
-			ProcessInitializeOnLoadMethodAttributes (509ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
-Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
-Refreshing native plugins compatible for Editor in 25.83 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7568 unused Assets / (140.5 MB). Loaded Objects now: 8450.
-Memory consumption went from 338.5 MB to 198.0 MB.
-Total: 119.622400 ms (FindLiveObjects: 2.915500 ms CreateObjectMapping: 2.138400 ms MarkObjects: 16.870400 ms  DeleteObjects: 97.695200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1696.857104 seconds.
-  path: Assets/NewMeshTerrain.prefab
-  artifactKey: Guid(63fca929550221844a9b168675585b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewMeshTerrain.prefab using Guid(63fca929550221844a9b168675585b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb336fe2dcf3d9cb9c1ea63ff5ce6e3') in 2.1767079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  9.406 seconds
-Refreshing native plugins compatible for Editor in 45.22 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Initializing Mesh Terrain Editor v4.0.0b1 on Unity 6000.3.4f1...
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
-Please upgrade ASE to latest version and restart Unity.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
-MTE.MTEDebug:LogWarning (string)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Initializing Mesh Terrain Editor...Done
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  4.006 seconds
-Domain Reload Profiling: 13459ms
-	BeginReloadAssembly (3659ms)
-		ExecutionOrderSort (3ms)
-		DisableScriptedObjects (323ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (8ms)
-		CreateAndSetChildDomain (1631ms)
-	RebuildCommonClasses (91ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (226ms)
-	LoadAllAssembliesAndSetupDomain (5445ms)
-		LoadAssemblies (3062ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2769ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (2503ms)
-			ResolveRequiredComponents (52ms)
-	FinalizeReload (4010ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3477ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (14ms)
-			BeforeProcessingInitializeOnLoad (389ms)
-			ProcessInitializeOnLoadAttributes (1653ms)
-			ProcessInitializeOnLoadMethodAttributes (1362ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (56ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
-Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
-Refreshing native plugins compatible for Editor in 24.50 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7568 unused Assets / (140.1 MB). Loaded Objects now: 8474.
-Memory consumption went from 338.4 MB to 198.3 MB.
-Total: 99.186000 ms (FindLiveObjects: 3.499900 ms CreateObjectMapping: 5.413500 ms MarkObjects: 15.445600 ms  DeleteObjects: 74.824200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  5.725 seconds
-Refreshing native plugins compatible for Editor in 27.02 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Initializing Mesh Terrain Editor v4.0.0b1 on Unity 6000.3.4f1...
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
-Please upgrade ASE to latest version and restart Unity.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
-MTE.MTEDebug:LogWarning (string)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Initializing Mesh Terrain Editor...Done
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.976 seconds
-Domain Reload Profiling: 9713ms
-	BeginReloadAssembly (1822ms)
-		ExecutionOrderSort (1ms)
-		DisableScriptedObjects (70ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (4ms)
-		CreateAndSetChildDomain (465ms)
-	RebuildCommonClasses (89ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (3702ms)
-		LoadAssemblies (2966ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1057ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (855ms)
-			ResolveRequiredComponents (40ms)
-	FinalizeReload (3977ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3392ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (32ms)
-			SetLoadedEditorAssemblies (18ms)
-			BeforeProcessingInitializeOnLoad (647ms)
-			ProcessInitializeOnLoadAttributes (2024ms)
-			ProcessInitializeOnLoadMethodAttributes (649ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (54ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
-Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
-Refreshing native plugins compatible for Editor in 18.17 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7568 unused Assets / (140.5 MB). Loaded Objects now: 8478.
-Memory consumption went from 338.6 MB to 198.1 MB.
-Total: 103.980600 ms (FindLiveObjects: 2.981100 ms CreateObjectMapping: 3.339400 ms MarkObjects: 13.715200 ms  DeleteObjects: 83.942800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  4.394 seconds
-Refreshing native plugins compatible for Editor in 22.75 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Initializing Mesh Terrain Editor v4.0.0b1 on Unity 6000.3.4f1...
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[MTE]Cannot find Amplify Shader Editor, features based on ASE might be disabled.
-Please upgrade ASE to latest version and restart Unity.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-MTE.MTEDebug:⁪‌⁭‍‬⁫⁯⁪‌‮⁫⁯‬‎‏‭‌‍⁯⁮⁯‎​⁮⁭⁮⁪⁮⁭‍‏⁯‪⁪‎⁭‏‍​‎‮ (object)
-MTE.MTEDebug:LogWarning (string)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Initializing Mesh Terrain Editor...Done
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:⁬⁯‫⁮​‍⁯‏‭‪​‭‌⁯‫‏‫⁫‪‬‎⁪‍⁭‪‮‎‭‭‫‭​⁬⁭‬⁭‏‬‏‎‮ (object)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_BK57FowBFxgwhLd64I4lOTbiX2B_ (bool)
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:_yZ0KkA7QWoBI4owQXGQsH7mtOid_ ()
-_4Lx0bEMlh0Z40TCezoxVJOBfdgU_:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  4.046 seconds
-Domain Reload Profiling: 8440ms
-	BeginReloadAssembly (1306ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (387ms)
-	RebuildCommonClasses (195ms)
-	RebuildNativeTypeToScriptingClass (72ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (2744ms)
-		LoadAssemblies (2470ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (892ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (769ms)
-			ResolveRequiredComponents (73ms)
-	FinalizeReload (4047ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3348ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (76ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (918ms)
-			ProcessInitializeOnLoadAttributes (1882ms)
-			ProcessInitializeOnLoadMethodAttributes (444ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (1049ms)
+			ProcessInitializeOnLoadAttributes (2282ms)
+			ProcessInitializeOnLoadMethodAttributes (722ms)
+			AfterProcessingInitializeOnLoad (39ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (35ms)
@@ -1005,94 +227,140 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'MTE/Specialized/Mali 400/Surface/3 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/3 Textures/Diffuse' not found
-Shader 'MTE/Specialized/Mali 400/Surface/2 Textures/Bumped': fallback shader 'MTE/Specialized/Mali 400/Legacy/2 Textures/Diffuse' not found
-Refreshing native plugins compatible for Editor in 19.69 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7568 unused Assets / (140.2 MB). Loaded Objects now: 8482.
-Memory consumption went from 338.4 MB to 198.2 MB.
-Total: 91.273400 ms (FindLiveObjects: 1.123500 ms CreateObjectMapping: 1.704200 ms MarkObjects: 9.175000 ms  DeleteObjects: 79.269100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 23.88 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 120.36 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7369 unused Assets / (5.2 MB). Loaded Objects now: 8379.
-Memory consumption went from 157.0 MB to 151.8 MB.
-Total: 33.878800 ms (FindLiveObjects: 5.450700 ms CreateObjectMapping: 3.196300 ms MarkObjects: 19.083200 ms  DeleteObjects: 6.146200 ms)
+Unloading 7414 unused Assets / (6.5 MB). Loaded Objects now: 8297.
+Memory consumption went from 148.5 MB to 141.9 MB.
+Total: 48.243300 ms (FindLiveObjects: 2.744700 ms CreateObjectMapping: 8.708700 ms MarkObjects: 21.439000 ms  DeleteObjects: 15.346800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in 10.147 seconds
-Refreshing native plugins compatible for Editor in 36.43 ms, found 10 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  9.935 seconds
-Domain Reload Profiling: 20144ms
-	BeginReloadAssembly (5021ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (73ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (14ms)
-		CreateAndSetChildDomain (788ms)
-	RebuildCommonClasses (639ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (4383ms)
-		LoadAssemblies (4407ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1945ms)
-			TypeCache.Refresh (899ms)
-				TypeCache.ScanAssembly (362ms)
-			BuildScriptInfoCaches (952ms)
-			ResolveRequiredComponents (56ms)
-	FinalizeReload (9955ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (9117ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (522ms)
-			SetLoadedEditorAssemblies (18ms)
-			BeforeProcessingInitializeOnLoad (549ms)
-			ProcessInitializeOnLoadAttributes (2364ms)
-			ProcessInitializeOnLoadMethodAttributes (5612ms)
-			AfterProcessingInitializeOnLoad (49ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (1ms)
-		AwakeInstancesAfterBackupRestoration (114ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 130.66 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7410 unused Assets / (5.8 MB). Loaded Objects now: 8394.
-Memory consumption went from 156.9 MB to 151.1 MB.
-Total: 47.956900 ms (FindLiveObjects: 6.644600 ms CreateObjectMapping: 4.951200 ms MarkObjects: 26.466400 ms  DeleteObjects: 9.891000 ms)
+Received Import Request.
+  Time since last request: 135414.178089 seconds.
+  path: Assets/my stuff/MoveUp.cs
+  artifactKey: Guid(cc9e62868e460504896bef045a7c2d3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/MoveUp.cs using Guid(cc9e62868e460504896bef045a7c2d3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9aff2996954f2d6e221bd8fca3abaa80') in 0.3838072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2c7aecef2efb8a1cdb0cec8edefaf9e') in 1.4135226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/Main vr scene.unity
+  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7784e41693e96a197994827645bb930d') in 0.0780862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 581.900081 seconds.
+  path: Assets/my stuff/collors/ICE.PNG
+  artifactKey: Guid(2608a44e31e2dbd438000d70a545572f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/collors/ICE.PNG using Guid(2608a44e31e2dbd438000d70a545572f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '68372de883134b5a9bf0ac627ba2c943') in 0.2103055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.292908 seconds.
+  path: Assets/my stuff/collors/ICE.PNG
+  artifactKey: Guid(2608a44e31e2dbd438000d70a545572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my stuff/collors/ICE.PNG using Guid(2608a44e31e2dbd438000d70a545572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05c55d7eeb17d2a2298a8d73cf8a9e10') in 0.1151174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.656513 seconds.
+  path: Assets/my stuff/ICE.PNG
+  artifactKey: Guid(2608a44e31e2dbd438000d70a545572f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/ICE.PNG using Guid(2608a44e31e2dbd438000d70a545572f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59981c92e77dc4c7180c7528d9f4d8f6') in 0.0402394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.795017 seconds.
+  path: Assets/my stuff/Materials
+  artifactKey: Guid(0198bfec58e6b4644b947c555dbb967a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/Materials using Guid(0198bfec58e6b4644b947c555dbb967a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7ead876d62a68cdc7e8f903cc2e09f2') in 0.029726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/my stuff/Materials/ICE.mat
+  artifactKey: Guid(6924b93b9aae091418c48e2f03fecaad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/Materials/ICE.mat using Guid(6924b93b9aae091418c48e2f03fecaad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfa0d5af52cc226921de83d2dde6bdf9') in 0.1006119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4890.155899 seconds.
+  path: Assets/my stuff/game objects
+  artifactKey: Guid(0f023ba7e92ee714a9df5f35bbf4339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my stuff/game objects using Guid(0f023ba7e92ee714a9df5f35bbf4339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73711556bd8e7c58d577bcb3a8c6a3f3') in 0.0020544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767762 seconds.
+  path: Assets/my stuff/game objects
+  artifactKey: Guid(0f023ba7e92ee714a9df5f35bbf4339a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/game objects using Guid(0f023ba7e92ee714a9df5f35bbf4339a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c13a8734697c7d51f1f2efcf629a48db') in 0.0560834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.526902 seconds.
+  path: Assets/Scenes/Main vr scene.unity
+  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '015bd1628485b9d6e458446d97a0aa49') in 0.0356841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.690795 seconds.
+  path: Assets/my stuff/game objects/Main vr scene.unity
+  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/game objects/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '315852fe38ca686d6eb998695dd38a78') in 0.0720385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.256266 seconds.
+  path: Assets/my stuff/game objects/Main vr scene.unity
+  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my stuff/game objects/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7a816b77266cce4171a09265268ef49') in 0.0033066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.509419 seconds.
+  path: Assets/my stuff/game objects/Directional Light.prefab
+  artifactKey: Guid(ca1e3a2f3e55c0a4cb76236a32546954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/my stuff/game objects/Directional Light.prefab using Guid(ca1e3a2f3e55c0a4cb76236a32546954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '861dab2f0f171251fe80a862058c6f25') in 0.0205358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.819161 seconds.
+  path: Assets/my stuff/game objects/Directional Light.prefab
+  artifactKey: Guid(ca1e3a2f3e55c0a4cb76236a32546954) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/game objects/Directional Light.prefab using Guid(ca1e3a2f3e55c0a4cb76236a32546954) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9af2d19d0f63fd53e378e337e609a1a') in 0.0986382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.320065 seconds.
+  path: Assets/my stuff/game objects/Main vr scene.unity
+  artifactKey: Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/my stuff/game objects/Main vr scene.unity using Guid(5ec754bed1516894ca6ab24f6ee4cc1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0657c1e6bd5398d8dd685c7572f3c20f') in 0.0374578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

@@ -280,7 +280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78350
+// Method Definition Index: 78355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainGroup_UpdateChildTerrains_mE617653EE5695159AF024996DF3B7BA6DE38E1C5 (TerrainGroup_tC02F16A9FD893F9BB5CC2B5D7855B875FDDB4484* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -338,7 +338,7 @@ IL_0024:
 		return;
 	}
 }
-// Method Definition Index: 78351
+// Method Definition Index: 78356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainGroup_DestroyChildTerrains_mC19CB7816BF5BF09C4EBCD35DB286E11CB711055 (TerrainGroup_tC02F16A9FD893F9BB5CC2B5D7855B875FDDB4484* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -395,7 +395,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 78352
+// Method Definition Index: 78357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainGroup__ctor_m54DE47AEE8B31FB032A32DB609D961BE63B1B109 (TerrainGroup_tC02F16A9FD893F9BB5CC2B5D7855B875FDDB4484* __this, const RuntimeMethod* method) 
 {
 	{
@@ -411,7 +411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TerrainGroup__ctor_m54DE47AEE8B31FB032A3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78353
+// Method Definition Index: 78358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tD6193DD9B11C00B18B1BC4D2ABFF8425702DB383 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m4823C7D7EB0BA2DB40591B4DDFC1BE2E786FB564 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -445,7 +445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tD6193DD9B11C00B18B1BC4D2ABFF8
 		return L_6;
 	}
 }
-// Method Definition Index: 78354
+// Method Definition Index: 78359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m18566C66651EDB6F2C4D792EB4D7E65AC66BA816 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t33E2C2F224EEF5B70A2E8C761F2A49BD4589DDE7* __this, const RuntimeMethod* method) 
 {
 	{
